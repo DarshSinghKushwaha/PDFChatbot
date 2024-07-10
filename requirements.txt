@@ -7,4 +7,3 @@ langchain
 PyPDF2
 chromadb
 faiss-cpu
-os
