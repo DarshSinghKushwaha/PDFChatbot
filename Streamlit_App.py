@@ -30,8 +30,8 @@ Follow these simple steps to interact with the chatbot:
 
 
 # This is the first API key input; no need to repeat it in the main function.
-api_key = "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"
-cohere_api_key = "sQVrxPCq1kTuAJgvgafEh9lid82EGEdaNM7qgCAl"
+api_key = os.dotenv.get("API_KEY")
+cohere_api_key = os.dotenv.get("cohere_api")
 
 
 def get_pdf_text(pdf_docs):
